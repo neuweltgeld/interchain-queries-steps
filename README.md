@@ -1,6 +1,6 @@
 # ICQ
 
-## If you get "icq not found" error try this steps
+## If you get "icq not found" error try this
 
 ```
 cd $HOME
