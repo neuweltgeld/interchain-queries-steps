@@ -24,7 +24,13 @@ echo 'export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin' >> $HOME/.bash_profile &
 ```
 
 ## Install icq again
-
+```
+cd $HOME
+git clone https://github.com/Stride-Labs/interchain-queries.git
+cd interchain-queries
+go build
+sudo mv interchain-queries /usr/local/bin/icq
+```
 
 
 ***************************
